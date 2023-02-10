@@ -8,8 +8,19 @@ var Amario = {
         for(i=0; i<this.IndeksPenilaian.length; i ++){
             total += this.IndeksPenilaian[i]
         }
+        return total/this.IndeksPenilaian.length
     }
 }
 
-console.log(Amario.Nama)
-console.log(Amario.IndeksPenilaianKumulatif)
+
+function BuatFunctionMhs (Nama, ProgramStudi, Alamat){
+    var Muhlis =  {};
+    Muhlis.Nama = Nama;
+    Muhlis.ProgramStudi = ProgramStudi;
+    Muhlis.Alamat = Alamat;
+
+    return Muhlis;
+}
+
+MuhlisAhmad = BuatFunctionMhs('Muhlis Ahmad Abdillah', 'Fisika' , 'Mampang' )
+console.log(MuhlisAhmad)

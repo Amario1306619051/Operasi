@@ -21,3 +21,4 @@ let ObjectKonversiSuhu = SuhuCelcius.map (KumpulanSuhu => ({
 }))
 
 console.table(ObjectKonversiSuhu)
+console.log(ObjectKonversiSuhu)

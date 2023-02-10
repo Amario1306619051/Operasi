@@ -33,3 +33,4 @@ function BuatFunctionMhsConstructor (Nama, ProgramStudi, Alamat){
 
 Pridana = new BuatFunctionMhsConstructor('Pridana Fadhilah Akbar', 'Fisika', 'Prima Harapan')
 console.log(Pridana)
+console.log(Amario.IndeksPenilaianKumulatif())

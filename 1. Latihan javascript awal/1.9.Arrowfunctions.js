@@ -14,3 +14,10 @@ var SuhuCelcius = [10, 20, 30, 40, 50, 60]
 let TabelReanur = SuhuCelcius.map (SuhuDerajatCelcius => 4*SuhuDerajatCelcius/5)
 
 console.log(TabelReanur)
+
+let ObjectKonversiSuhu = SuhuCelcius.map (KumpulanSuhu => ({
+    SuhuReamur: KumpulanSuhu*4/5,
+    SuhuKelvin: KumpulanSuhu + 273
+}))
+
+console.table(ObjectKonversiSuhu)

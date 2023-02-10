@@ -24,3 +24,12 @@ function BuatFunctionMhs (Nama, ProgramStudi, Alamat){
 
 MuhlisAhmad = BuatFunctionMhs('Muhlis Ahmad Abdillah', 'Fisika' , 'Mampang' )
 console.log(MuhlisAhmad)
+
+function BuatFunctionMhsConstructor (Nama, ProgramStudi, Alamat){
+    this.Nama = Nama,
+    this.ProgramStudi = ProgramStudi,
+    this.Alamat = Alamat
+}
+
+Pridana = new BuatFunctionMhsConstructor('Pridana Fadhilah Akbar', 'Fisika', 'Prima Harapan')
+console.log(Pridana)

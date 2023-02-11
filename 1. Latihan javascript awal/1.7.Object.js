@@ -11,7 +11,7 @@ var Amario = {
         return total/this.IndeksPenilaian.length
     }
 }
-console.log(Amario.IndeksPenilaianKumulatif)
+
 function BuatFunctionMhs (Nama, ProgramStudi, Alamat){
     var Muhlis =  {};
     Muhlis.Nama = Nama;

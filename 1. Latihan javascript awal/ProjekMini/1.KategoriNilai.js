@@ -28,4 +28,27 @@ const readline = require('readline').createInterface({
     console.log(CekKategoriNilai(input));
     readline.close();
 });
-  
+ 
+//Menggunakan switch case
+let grade = prompt("Masukkan nilai: ");
+
+switch (true) {
+  case (grade >= 91 && grade <= 100):
+    console.log("Nilai: A");
+    break;
+  case (grade >= 71 && grade <= 90):
+    console.log("Nilai: B");
+    break;
+  case (grade >= 61 && grade <= 70):
+    console.log("Nilai: C");
+    break;
+  case (grade >= 51 && grade <= 60):
+    console.log("Nilai: D");
+    break;
+  case (grade <= 50):
+    console.log("Nilai: E");
+    break;
+  default:
+    console.log("Nilai tidak valid");
+    break;
+}

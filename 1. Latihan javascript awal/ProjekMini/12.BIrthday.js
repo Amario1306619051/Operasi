@@ -28,16 +28,15 @@ function birthdayCakeCandles(candles) {
       }
     }
     return jumlah
-  }
+}
   
-  function main() {
+function main() {
     //var n = parseInt(readLine());
     //ar = readLine().split(' ');
     //ar = ar.map(Number);
     var ar = [3, 2, 1, 3]; // override input
     var result = birthdayCakeCandles(ar);
     console.log(result);
-  
-  }
+}
   
   main(); // execute program

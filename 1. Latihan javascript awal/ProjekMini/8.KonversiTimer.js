@@ -25,4 +25,4 @@ function KonversiFormat (Nilai) {
     return `${PrintJam}:${PrintMenit}:${Detik}`    
 }
 
-console.log(KonversiFormat(500))
+console.log(KonversiFormat(132))

@@ -17,16 +17,11 @@
 }
   
 function main() {
-    //     var n = parseInt(readLine());
-    //     var grades = [];
-    //     for(var grades_i = 0; grades_i < n; grades_i++){
-    //        grades[grades_i] = parseInt(readLine());
-    //     }
-    var grades = [73, 67, 38, 33]; // override input
+    var grades = [73, 67, 38, 33]; 
     var grades2 = [72,62,79,45]
     var grades3 = [76, 89, 56, 30]
     var result = gradingStudents(grades2);
     console.log(result.join("\n"));
 }
   
-  main(); // execute program
+  main(); // execute

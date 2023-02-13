@@ -37,7 +37,7 @@ function main() {
     //     }
     var grades = [73, 67, 38, 33]; // override input
     var grades2 = [72,62,79,45]
-    var result = gradingStudents(grades);
+    var result = gradingStudents(grades2);
     console.log(result.join("\n"));
 }
   

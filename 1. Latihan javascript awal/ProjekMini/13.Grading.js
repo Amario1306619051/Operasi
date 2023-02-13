@@ -1,8 +1,4 @@
-// Grading Students
-// - Problem Solving (Basic)
-// Full Problem: https://www.hackerrank.com/challenges/grading/problem
-
-function gradingStudents(grades) {
+ function gradingStudents(grades) {
     let a = 0;
     let ans = [];
     for( let i = 0 ; i <grades.length; i ++){

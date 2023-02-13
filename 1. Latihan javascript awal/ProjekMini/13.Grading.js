@@ -1,14 +1,5 @@
 // Grading Students
 // - Problem Solving (Basic)
-// - Difficulty: Easy
-
-/*
- * Complete the 'gradingStudents' function below.
- *
- * The function is expected to return an INTEGER_ARRAY.
- * The function accepts INTEGER_ARRAY grades as parameter.
- */
-
 // Full Problem: https://www.hackerrank.com/challenges/grading/problem
 
 function gradingStudents(grades) {

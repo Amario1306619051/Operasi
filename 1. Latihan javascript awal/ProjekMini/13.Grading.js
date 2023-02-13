@@ -36,6 +36,7 @@ function main() {
     //        grades[grades_i] = parseInt(readLine());
     //     }
     var grades = [73, 67, 38, 33]; // override input
+    var grades2 = [72,62,79,45]
     var result = gradingStudents(grades);
     console.log(result.join("\n"));
 }

@@ -6,4 +6,4 @@ var Masiswa = [
  'Dhuha'
 ]
 
-Masiswa.forEach((e,i) => `Mahasiswa ke ${i} adalah ${e}`)
+Masiswa.forEach((e,i) => console.log(`${e} adalah ${i}`))

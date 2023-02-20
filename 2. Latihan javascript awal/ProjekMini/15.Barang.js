@@ -8,8 +8,13 @@ class Barang {
     }
     tambahStok(jumlah){
         this.stok +=jumlah
+        return this.stok
     }
     kurangiStok(jumlah){
         this.stok -= jumlah
+        return this.stok
     }
 }
+
+var Popok = new Barang(1,'Popok',60,1000,500)
+console.log(Popok.kurangiStok(5))

@@ -1,2 +1,3 @@
 set seperti array tapi set gabisa nyimpen data yang sama
 fungisnya set dan has
+set gabisa disikuin

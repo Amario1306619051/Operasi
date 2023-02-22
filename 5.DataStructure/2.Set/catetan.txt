@@ -1,1 +1,2 @@
-set seperti array tapi set gabisa nyimpen data yang saam
+set seperti array tapi set gabisa nyimpen data yang sama
+fungisnya set dan has

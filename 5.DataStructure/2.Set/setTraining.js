@@ -10,6 +10,3 @@ set.delete(3)
 console.log(set.values())
 
 console.log(set.values)
-
-dffadf fdajf 
-kfdano onfoan

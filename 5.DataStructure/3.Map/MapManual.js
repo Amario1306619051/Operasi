@@ -19,4 +19,4 @@ class mapManual {
 
 var satuDua = new mapManual([['apel', 300],['jeruk', 400],['anggur',500]])
 satuDua.set(['anggur',100])
-console.log(satuDua)
+console.log(satuDua.Himpunan)

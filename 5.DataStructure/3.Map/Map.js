@@ -1,10 +1,4 @@
-const map = new Map ([['a',1],['b',2]])
+const map = new Map ([[1,'succeed'],[2,'succeed'],[3,'succeed'],[4,'succeed']])
 
-map.set('c', 3)
-console.log(map)
-var tryOne = map.get('c')
-console.log(tryOne)
-map.set('c', 3)
-console.log(map)
-
+console.table(map)
 

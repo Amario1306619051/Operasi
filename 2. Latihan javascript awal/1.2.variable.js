@@ -1,7 +1,7 @@
-for (let i = 1; i <= 10; i++) {
-    let k = 0
-    k += 2
+var i = 1
+function Asli (){
+     i = 0
 }
 
-console.log(k)
-  
+Asli()
+console.log(i)

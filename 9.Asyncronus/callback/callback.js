@@ -15,4 +15,4 @@ function getDataMahasiswa (url, success, error){
     xhr.send()
 }
 
-getDataMahasiswa('https://jsonplaceholder.typicode.com/posts', results => { console.log(results)}, () => {})
+getDataMahasiswa('https://jsonplaceholder.typicode.com/posts', results => { console.log(JSON.parse(results))}, () => {})

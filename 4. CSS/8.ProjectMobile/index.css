@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
     position: fixed;
 }
 .body1{
-    margin-top: 0vh;
+    margin-top: 3vh;
 }
 #buttonnav{
     color: white;
@@ -55,6 +55,7 @@ body::-webkit-scrollbar {
     font-size: 9vw;
     margin-left: 30px;
     margin-right: 30px;
+    padding-top: 10vh;
 }
 
 .longkap{

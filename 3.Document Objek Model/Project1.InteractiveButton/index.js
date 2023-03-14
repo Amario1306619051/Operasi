@@ -7,6 +7,4 @@ tombol.addEventListener('click', nambahSatu)
 
 function nambahSatu () {
     jumlahKlik += 1
-    const jumlah = document.getElementsByClassName('jumlah')[0];
-    jumlah.innerHTML = jumlahKlik
 }

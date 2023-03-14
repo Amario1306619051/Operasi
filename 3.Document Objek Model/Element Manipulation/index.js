@@ -23,3 +23,13 @@ item.appendChild(tulisanItem)
 const calonNomorTiga = SectionB.querySelector('ul li:nth-child(2)')
 const ulSectionB = SectionB.querySelector('ul')
 ulSectionB.insertBefore(item, calonNomorTiga)
+
+
+//insert before part 2
+const paragrafDuaKomaLima = document.createElement('p')
+const isiParagrafDuaKomaLima = document.createTextNode('Paragraf 2.5')
+paragrafDuaKomaLima.appendChild(isiParagrafDuaKomaLima)
+
+const p3 = document.getElementsByClassName('p3')[0]
+const sectionA = document.getElementById('a')
+sectionA.insertBefore(paragrafDuaKomaLima, p3)

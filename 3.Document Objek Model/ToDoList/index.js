@@ -1,24 +1,28 @@
-const listHarian = document.querySelector('.listHarian')
-const input = document.querySelector('.inputBar')
-const buttonToDO = document.querySelector('.inputToDo')
 const tombolTambahHari = document.querySelector('.tambahHari')
 const container = document.getElementById('container')
 const tambahTodo = document.querySelector('.tambahTodo')
+let listHarian = document.querySelectorAll('.listHarian')
+let input = document.querySelectorAll('.inputBar')
+let buttonToDO = document.querySelectorAll('.inputToDo')
 
-buttonToDO.addEventListener('click', inputToListHarian)
-tombolTambahHari.addEventListener('click', tambahListHarian)
+for (let i = 0; i < listHarian.length; i ++){
+    buttonToDO[i].addEventListener('click', function(){
+        isiTodo[i] += `<li> ${input[i].value} </li>`
+        hasilTodo[i] = `<ol> ${isiTodo[i]} </ol>`
+        listHarian[i].innerHTML = hasilTodo[i]
+    })
+}  
 
-let hasilTodo = ``
-let isiTodo = ``
+let hasilTodo = [``]
+let isiTodo = [``]
 let isiTambahTodo = ``
 let tanggal = 16
-function inputToListHarian (){
-    isiTodo += `<li> ${input.value} </li>`
-    hasilTodo = `<ol> ${isiTodo} </ol>`
-    listHarian.innerHTML = hasilTodo
-}
+
+tombolTambahHari.addEventListener('click', tambahListHarian)
 function tambahListHarian(){
     tanggal += 1
+    hasilTodo.push(``)
+    isiTodo.push(``)
     isiTambahTodo += `
     <div class="card">
         <div id="inputDanTanggal">
@@ -33,4 +37,16 @@ function tambahListHarian(){
     </div>
     `
     tambahTodo.innerHTML = isiTambahTodo
+
+    let listHarian = document.querySelectorAll('.listHarian')
+    let input = document.querySelectorAll('.inputBar')
+    let buttonToDO = document.querySelectorAll('.inputToDo')
+
+    for (let i = 0; i < listHarian.length; i ++){
+        buttonToDO[i].addEventListener('click', function(){
+            isiTodo[i] += `<li> ${input[i].value} </li>`
+            hasilTodo[i] = `<ol> ${isiTodo[i]} </ol>`
+            listHarian[i].innerHTML = hasilTodo[i]
+        })
+    }
 }
